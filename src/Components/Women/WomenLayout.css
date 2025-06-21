@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.categories a,.clothes a,.accessories a{
+    text-decoration: none;
+    font-size: 18px;
+    opacity: 0.5;
+    color: black;
+}
+.categories a:hover,.clothes a:hover,.accessories a:hover{
+    color: #8b5942;
+    font-size: 19px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.categories,.options{
+    border-bottom: 2px solid black !important;
+}
+
+.MuiBreadcrumbs-ol{
+    color: white !important;
+}
+
+.MuiChip-label{
+    color: white;
+}
+
+.MuiChip-label:hover{
+    color: black;
+}

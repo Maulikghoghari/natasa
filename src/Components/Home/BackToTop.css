@@ -1,0 +1,29 @@
+/* Add this in your CSS file or in a <style> tag */
+.back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #805138;
+  color: #fff;
+  border: none;
+  padding: 2px 18px;
+  border-radius: 50%;
+  font-size: 35px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.back-to-top:hover {
+  background-color: #6b402e; /* Slightly darker brown on hover */
+  transform: scale(1.1);
+}

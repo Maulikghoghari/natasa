@@ -14,7 +14,6 @@ import { useEffect, useState } from 'react';
 
 function App() {
 
-  const [cart, setcart] = useState([]);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {

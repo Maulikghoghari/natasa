@@ -23,10 +23,6 @@ function App() {
     }, 2000);
   }, []);
 
-  const handleClick = (item) => {
-    console.log(item);
-  };
-
   return (
     <div className="App">
       {loading ? (

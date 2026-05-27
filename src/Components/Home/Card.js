@@ -9,7 +9,7 @@ function Card() {
 
     useEffect(() => {
         setData(product);
-    })
+    },[]);
     return (
         <>
             <div className="product mt-5 pt-5">
